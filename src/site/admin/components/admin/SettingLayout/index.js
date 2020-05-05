@@ -8,7 +8,7 @@ export default function Z() {
       role="dialog"
       style1="display: none;"
       aria-hidden="true"
-    >a
+    >
       <div className="modal-dialog modal-dialog-right modal-md">
         <div className="modal-content">
           <div className="dropdown-header bg-trans-gradient d-flex justify-content-center align-items-center w-100">

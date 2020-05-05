@@ -3,7 +3,6 @@ import "./style.scss";
 import { connect } from "react-redux";
 import authAction from "@actions/auth";
 import ModalChangePass from "@admin/containers/userinfo/modalChangePass";
-import ModalComment from "@admin/containers/comments";
 function index(props) {
     const [state, _setState] = useState({
         showChangePass: false,
@@ -1343,12 +1342,6 @@ function index(props) {
                     </div>
                 </div>
             </div>
-            {
-                state.showChangePass ? <ModalChangePass onClose={closeModal} /> : null
-            }
-            {
-                state.showComments ? <ModalComment onClose={closeModal} /> : null
-            }
         </header >
     );
 }
